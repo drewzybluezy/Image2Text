@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CameraActivity" >
+
+    <SurfaceView
+        android:id="@+id/camera_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"></SurfaceView>
+        <!-- android:layout_marginBottom="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp" -->
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/camera_button"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/camerabutton"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/flash"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/flashon" />
+
+</FrameLayout>

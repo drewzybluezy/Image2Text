@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/toggle_readback" android:title="Toggle Readback"></item>
+    <item android:id="@+id/toggle_auto_delete" android:title="Toggle Picture Auto-Delete"></item>
+</menu>

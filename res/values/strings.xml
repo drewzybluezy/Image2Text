@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Image2Text</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_translation">TranslationActivity</string>
+    <string name="default_text">Your translation will appear here.</string>
+
+</resources>
